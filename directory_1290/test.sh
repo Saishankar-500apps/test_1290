@@ -8,6 +8,8 @@ cd test_1290
 
 cd 
 
+cd directory_1290
+
 touch testfile2.txt
 echo "A text file is created "
 echo 
@@ -52,6 +54,7 @@ echo "testfile is copied "
 echo 
 cat testfile.txt >> testfile2.txt
 echo "testfile is redirected"
+echo
 echo "testfile is moving"
 mv testfile.txt testfile.csv 
 echo "textfile is moved into csv file" 
